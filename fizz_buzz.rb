@@ -1,16 +1,18 @@
 def fizzbuzz(num)
-  if num % 5 == 0 && num % 3 == 0
-    "fizzbuzz"
+  if num % 15 == 0
+    "FizzBuzz"
   elsif num % 5 == 0
-    "buzz"
+    "Buzz"
   elsif num % 3 == 0
-    "fizz"
-  else
+    "Fizz"
+  else 
     num.to_s
   end
 end
 
-puts "数字を入れてね"
-num = gets.to_i
+puts "整数を入力"
+
+sesu = gets.to_i
+
 puts "結果↓"
-puts fizzbuzz(num)
+puts fizzbuzz(sesu)
