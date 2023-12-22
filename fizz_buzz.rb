@@ -12,7 +12,7 @@ end
 
 puts "整数を入力"
 
-sesu = gets.to_i
+sesudayo = gets.to_i
 
 puts "結果↓"
-puts fizzbuzz(sesu)
+puts fizzbuzz(sesudayo)
